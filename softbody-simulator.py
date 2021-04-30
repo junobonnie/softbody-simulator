@@ -69,7 +69,7 @@ while True:
             cubes.append(new_cube)
             for h in range(new_cube.height):
                 for w in range(new_cube.width):
-                    other_atoms.append(new_cube.atoms[h][w])
+                    simulator.other_atoms.append(new_cube.atoms[h][w])
                            
     clock.tick(100)
     pg.display.update()
