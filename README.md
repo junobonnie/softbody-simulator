@@ -4,7 +4,7 @@
 pygame 설치 필요.
 
 
-two demo videos:
+two demo videos(모바일 재생 불가):
 
 
 https://user-images.githubusercontent.com/60418809/116839713-4f024300-ac0e-11eb-853a-9944968a95fa.mp4
