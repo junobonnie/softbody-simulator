@@ -81,7 +81,7 @@ class Simulator:
         for wall in self.walls:
             self.render.wall(wall)
             for other_atom in self.other_atoms:
-                wall.collision(other_atom)
+                other_atom.collision(wall)
               
         x_ = []
         v_ = []
